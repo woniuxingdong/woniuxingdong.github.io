@@ -1,0 +1,204 @@
+/* Global setting for my site */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+    font-size: 14px;
+}
+
+body {
+    font-family: "Arial", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+    color: #5D6063;
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #f1f1f3;
+    height: 100%;
+
+    /* Fixed width of the whole page */
+    max-width: 960px;
+}
+
+main {
+    line-height: 2;
+    font-size: 1.2rem;
+}
+
+section {
+    background-color: #fff;
+}
+
+section:nth-child(odd) {
+    border: 0 1px 0 solid #ccc;
+}
+
+section > header {
+    padding: 2rem;
+}
+section .content {
+    padding: 0.5rem 1.25rem 5rem;;
+}
+
+section h1 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    padding: 2rem;
+}
+
+.slogon {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.pageheader > div {
+    box-shadow: 0px 1px 3px #eee;
+}
+
+.pageheader h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 3px #333 ;
+    font-style: italic;
+    color: #0084bf;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.pageheader nav {
+    display: inline-block;
+}
+
+.pageheader nav a {
+    color: #fff;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.pageheader nav a:hover {
+    font-size: bold;
+    background-color: darkgray;
+}
+
+header nav a:active {
+    font-size: bold;
+    background-color: #333;
+}
+
+.pageheader {
+    /*color: #fff;*/
+    /*background: #44443f;*/
+    height: 100%;
+    position: relative;
+
+    background: url("../images/3.jpg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 3px;
+    color: #fff;
+}
+
+
+.pageheader .slogon {
+    position: absolute;
+    top: 66%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(230,230,230,0.38);
+    color: white;
+    transform: translate(0, -50%);
+}
+
+.belief {
+    background-color: #077;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    padding: 0.2rem 0.5rem
+}
+
+.belief.left {
+    margin-right: 30%;
+    border-radius: 0 5px 5px 0;
+}
+
+.belief.right {
+    margin-left: 30%;
+    border-radius: 5px 0 0 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+dd {
+    padding-left: 2.5rem;
+}
+
+dt {
+    font-weight: bold;
+    background-color: #eee;
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
+}
+
+dd {
+    padding-left: 2.5rem;
+}   
+
+[class|=col] {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.advantage {
+    text-align: center;
+}
+
+.advantage .icon {
+    line-height: 2;
+    color: #2f3f5f;
+}
+
+.icon {
+    font-size: 5rem;
+    color: #077;
+}
+
+.card {
+    padding: 0 1rem;
+}
+
+.description {
+    font-size: 1rem;
+}
+
+section.contact {
+    font-weight: bold;
+    background: #2f3f5f;
+    color: #fff;
+}
+
+/* For large screen size */
+@media screen and (min-width:600px) {
+    html, body {
+        font-size: 16px;
+    }
+
+    .col-3 {
+        width: 32%;
+    }
+}
+
