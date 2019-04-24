@@ -11,11 +11,11 @@ html {
 
 body {
     font-family: "Arial", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
-    color: #5D6063;
+    color: #484B4E;
     margin: 0 auto;
     padding: 0;
     overflow-x: hidden;
-    background-color: #f1f1f3;
+    background-color: #ccc;
     height: 100%;
 
     /* Fixed width of the whole page */
@@ -25,50 +25,31 @@ body {
 main {
     line-height: 2;
     font-size: 1.2rem;
-}
-
-section {
-    background-color: #fff;
-}
-
-section:nth-child(odd) {
-    border: 0 1px 0 solid #ccc;
+    background-color: #f1f1f1;
 }
 
 section > header {
     padding: 2rem;
+    text-align: center;
 }
+
 section .content {
     padding: 0.5rem 1.25rem 5rem;;
 }
 
-section h1 {
-    text-align: center;
-}
-
 footer {
+    background-color: #333;
     text-align: center;
+    color: #fff;
 }
 
 footer p {
     padding: 2rem;
 }
 
-.slogon {
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.pageheader > div {
-    box-shadow: 0px 1px 3px #eee;
-}
-
 .pageheader h1 {
     font-size: 3rem;
-    text-shadow: 2px 2px 3px #333 ;
-    font-style: italic;
-    color: #0084bf;
-    padding: 1rem;
+    color: #069;
     display: inline-block;
 }
 
@@ -77,7 +58,6 @@ footer p {
 }
 
 .pageheader nav a {
-    color: #fff;
     font-size: 0.8rem;
     text-decoration: none;
 }
@@ -93,67 +73,63 @@ header nav a:active {
 }
 
 .pageheader {
-    /*color: #fff;*/
-    /*background: #44443f;*/
-    height: 100%;
     position: relative;
+    height: 100%;
 
-    background: url("../images/3.jpg") no-repeat center;
-    background-size: cover;
-    background-position: center;
+    /* Setup background image */
+    background: url("../images/5-2-small.jpg") no-repeat center/cover;
 
-    border-radius: 3px;
-    color: #fff;
+    padding: 1.5rem;
 }
 
+.shortline {
+    width: 5%;
+    height: 5px;
+    background-color: #069;
+    display: inline-block;
+    margin-bottom: -15px;
+}
 
-.pageheader .slogon {
+.fa-angle-double-down {
     position: absolute;
-    top: 66%;
-    left: 0;
-    width: 100%;
+    left: 50%;
+    bottom: 2%;
+    font-size: 1.5rem;
+    transition: 0.2s ease-in;
+}
+
+.fa-angle-double-down:hover {
+    font-size: 2rem;
+    transform: translate(0, 10px);
+}
+
+.slogon {
+    position: absolute;
+    top: 67%;
+    left: 10%;
+    /*width: 100%;
     background-color: rgba(230,230,230,0.38);
-    color: white;
-    transform: translate(0, -50%);
+    transform: translate(0, -50%);*/
+}
+
+.withus {
+    font-size: 2rem;
+}
+
+.keyword {
+    font-size: 5rem;
+    color: #069;
+    font-weight: bold;
 }
 
 .belief {
     background-color: #077;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-weight: bold;
     margin: 1rem 0;
-    padding: 0.2rem 0.5rem
+    padding: 1.5rem;
 }
-
-.belief.left {
-    margin-right: 30%;
-    border-radius: 0 5px 5px 0;
-}
-
-.belief.right {
-    margin-left: 30%;
-    border-radius: 5px 0 0 5px;
-}
-
-ul {
-    list-style: none;
-}
-
-dd {
-    padding-left: 2.5rem;
-}
-
-dt {
-    font-weight: bold;
-    background-color: #eee;
-    margin: 1.5rem 0;
-    font-size: 1.5rem;
-}
-
-dd {
-    padding-left: 2.5rem;
-}   
 
 [class|=col] {
     width: 100%;
@@ -169,12 +145,10 @@ dd {
 
 .advantage .icon {
     line-height: 2;
-    color: #2f3f5f;
 }
 
 .icon {
     font-size: 5rem;
-    color: #077;
 }
 
 .card {
@@ -183,6 +157,7 @@ dd {
 
 .description {
     font-size: 1rem;
+    text-align: left;
 }
 
 section.contact {
@@ -197,8 +172,17 @@ section.contact {
         font-size: 16px;
     }
 
+    .pageheader {
+        background: url("../images/5-2.jpg") no-repeat center/cover;
+    }
+
     .col-3 {
         width: 32%;
+    }
+
+    .slogon {
+        top: 71%;
+        left: 24%;
     }
 }
 
