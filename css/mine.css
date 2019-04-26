@@ -81,7 +81,8 @@ footer p {
     height: 100%;
 
     /* Setup background image */
-    background: url("../images/5-2-small.jpg") no-repeat center/cover;
+    background: url("http://wx2.sinaimg.cn/large/0060lm7Tly1g2g3iynu3yj30go0u0my6.jpg") no-repeat center/cover;
+    /* background: url("../images/5-2-small.jpg") no-repeat center/cover; */
 
     padding: 1.5rem;
 }
@@ -179,7 +180,8 @@ footer p {
     }
 
     .pageheader {
-        background: url("../images/5-2.jpg") no-repeat center/cover;
+        background: url("http://wx1.sinaimg.cn/large/0060lm7Tly1g2g3hmvydfj30qo0u0mya.jpg") no-repeat center/cover;
+        /* background: url("../images/5-2.jpg") no-repeat center/cover; */
     }
 
     .col-3 {
