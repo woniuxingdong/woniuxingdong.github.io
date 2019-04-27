@@ -54,22 +54,26 @@ footer p {
     padding: 2rem;
 }
 
-.pageheader h1 {
-    font-size: 3rem;
+/* use different font for logo and slogon */
+header [class*="logo"] {
+    font-family: "Rufina";
+}
+
+.logo {
+    font-size: 1.5rem;
     color: #069;
     display: inline-block;
 }
 
 .pageheader nav {
     display: inline-block;
-    padding-left: 2rem;
 }
 
 .pageheader nav a {
     color: #aaa;
     text-decoration: none;
     font-weight: bold;
-    padding: 0 0.3rem;
+    padding-right: 0.3rem;
 }
 
 .pageheader nav a:hover {
