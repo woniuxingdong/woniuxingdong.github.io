@@ -23,8 +23,8 @@ body {
 }
 
 main {
-    line-height: 2;
-    font-size: 1.2rem;
+    /* line-height: 2; */
+    /* font-size: 1.2rem; */
     background-color: #f1f1f1;
 }
 
@@ -86,7 +86,7 @@ footer p {
     background: url("http://wx2.sinaimg.cn/large/0060lm7Tly1g2g3iynu3yj30go0u0my6.jpg") no-repeat center/cover;
     /* background: url("../images/5-2-small.jpg") no-repeat center/cover; */
 
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 /* use different font for logo and slogon */
@@ -105,7 +105,7 @@ footer p {
 
 .pageheader > div {
     position: absolute;
-    left: 7%;
+    left: 5%;
 }
 
 .withus {
@@ -146,8 +146,6 @@ footer p {
 }
 
 .desc {
-    font-size: 1rem;
-    text-align: justify;
     display: inline-block;
 }
 
@@ -189,10 +187,6 @@ footer p {
 
     .slogon {
         top: 71%;
-    }
-
-    .pageheader > div {
-        left: 24%;
     }
 }
 
