@@ -30,14 +30,11 @@ main {
 
 section {
     text-align: center;
+    padding-top: 7rem;
 }
 
 section > * {
-    padding: 2rem 2rem 3rem 2rem;
-}
-
-section > header {
-    line-height: 1.3;
+    padding: 0 5%;
 }
 
 .shortline {
@@ -45,10 +42,6 @@ section > header {
     height: 5px;
     background-color: #069;
     display: inline-block;
-}
-
-section .content {
-    padding-bottom: 5rem;
 }
 
 footer {
@@ -59,10 +52,6 @@ footer {
 
 footer p {
     padding: 2rem;
-}
-
-.pageheader nav {
-    display: inline-block;
 }
 
 .pageheader nav a {
@@ -87,6 +76,8 @@ footer p {
     /* background: url("../images/5-2-small.jpg") no-repeat center/cover; */
 
     padding: 1rem;
+
+    border-bottom: 1px dashed #ccc;
 }
 
 /* use different font for logo and slogon */
@@ -120,17 +111,18 @@ footer p {
 .belief {
     background-color: #069;
     color: #fff;
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-weight: bold;
-    margin: 0 0 2rem 0;;
-    padding: 1.5rem;
+
+    margin-top: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 [class|=col] {
     width: 100%;
     display: inline-block;
     vertical-align: top;
-    margin-bottom: 3rem;
 }
 
 .icon {
@@ -138,31 +130,28 @@ footer p {
 }
 
 .card {
-    padding: 0 1rem;
+    margin-top: 3rem;
 }
 
 .card-head > p:first-of-type{
     font-weight: bold;
-}
-
-.desc {
-    display: inline-block;
-}
-
-.contact {
-    font-weight: bold;
-    background: #2f3f5f;
-    color: #fff;
-}
-
-.about .content {
-    text-align: justify;
+    font-size: 1.2rem;
 }
 
 .poem {
     font-size: 1.1rem;
     font-style: italic;
     font-weight: bold;
+    margin-top: 3rem;
+}
+
+.contact {
+    font-weight: bold;
+    background: #2f3f5f;
+    color: #fff;
+    
+    padding: 3rem 5% 5rem 5%;
+    margin-top: 7rem;
 }
 
 .name {
