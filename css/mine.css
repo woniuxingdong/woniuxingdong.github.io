@@ -40,6 +40,13 @@ section > header {
     line-height: 1.3;
 }
 
+.shortline {
+    width: 5%;
+    height: 5px;
+    background-color: #069;
+    display: inline-block;
+}
+
 section .content {
     padding-bottom: 5rem;
 }
@@ -54,17 +61,6 @@ footer p {
     padding: 2rem;
 }
 
-/* use different font for logo and slogon */
-header [class*="logo"] {
-    font-family: "Rufina";
-}
-
-.logo {
-    font-size: 1.5rem;
-    color: #069;
-    display: inline-block;
-}
-
 .pageheader nav {
     display: inline-block;
 }
@@ -74,10 +70,12 @@ header [class*="logo"] {
     text-decoration: none;
     font-weight: bold;
     padding-right: 0.3rem;
+    font-size: 0.8rem;
 }
 
 .pageheader nav a:hover {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    color: #069;
 }
 
 .pageheader {
@@ -91,35 +89,32 @@ header [class*="logo"] {
     padding: 1.5rem;
 }
 
-.shortline {
-    width: 5%;
-    height: 5px;
-    background-color: #069;
-    display: inline-block;
+/* use different font for logo and slogon */
+.pageheader [class*="logo"] {
+    font-family: "Merriweather";
 }
 
-.fa-angle-double-down:hover {
-    font-size: 2rem;
-    transform: translate(0, 10px);
+.logo {
+    font-size: 1.2rem;
+    color: #069;
 }
 
 .slogon {
-    position: absolute;
     top: 67%;
-    left: 10%;
-    /*width: 100%;
-    background-color: rgba(230,230,230,0.38);
-    transform: translate(0, -50%);*/
+}
+
+.pageheader > div {
+    position: absolute;
+    left: 7%;
 }
 
 .withus {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .keyword {
     font-size: 5rem;
     color: #069;
-    font-weight: bold;
 }
 
 .belief {
@@ -194,6 +189,9 @@ header [class*="logo"] {
 
     .slogon {
         top: 71%;
+    }
+
+    .pageheader > div {
         left: 24%;
     }
 }
