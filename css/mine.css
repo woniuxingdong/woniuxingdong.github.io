@@ -73,7 +73,6 @@ footer p {
 
     /* Setup background image */
     background: url("http://wx2.sinaimg.cn/large/0060lm7Tly1g2g3iynu3yj30go0u0my6.jpg") no-repeat center/cover;
-    /* background: url("../images/5-2-small.jpg") no-repeat center/cover; */
 
     padding: 1rem;
 
@@ -133,16 +132,19 @@ footer p {
     margin-top: 3rem;
 }
 
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .card-head > p:first-of-type{
     font-weight: bold;
     font-size: 1.2rem;
 }
 
 .poem {
-    font-size: 1.1rem;
     font-style: italic;
-    font-weight: bold;
-    margin-top: 3rem;
+    margin: 3rem 0;
 }
 
 .contact {
@@ -167,11 +169,10 @@ footer p {
 
     .pageheader {
         background: url("http://wx1.sinaimg.cn/large/0060lm7Tly1g2g3hmvydfj30qo0u0mya.jpg") no-repeat center/cover;
-        /* background: url("../images/5-2.jpg") no-repeat center/cover; */
     }
 
     .col-3 {
-        width: 32%;
+        width: 33.33%;
     }
 
     .slogon {
