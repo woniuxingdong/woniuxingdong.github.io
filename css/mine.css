@@ -30,7 +30,9 @@ main {
 
 section {
     text-align: center;
-    padding-top: 7rem;
+
+    padding: 8rem 0;
+    border-top: 1px dashed #ccc;
 }
 
 section > * {
@@ -76,7 +78,7 @@ footer p {
 
     padding: 1rem;
 
-    border-bottom: 1px dashed #ccc;
+    /* border-bottom: 1px dashed #ccc; */
 }
 
 /* use different font for logo and slogon */
@@ -108,14 +110,19 @@ footer p {
 }
 
 .belief {
+    font-family: "Merriweather";
+    font-variant: small-caps;
+
     background-color: #069;
     color: #fff;
-    font-size: 2rem;
-    font-weight: bold;
 
     margin-top: 3rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.belief > span {
+    font-size: 5rem;
 }
 
 [class|=col] {
@@ -129,7 +136,7 @@ footer p {
 }
 
 .card {
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 .content {
@@ -142,23 +149,23 @@ footer p {
     font-size: 1.2rem;
 }
 
-.poem {
-    font-style: italic;
-    margin: 3rem 0;
-}
-
 .contact {
     font-weight: bold;
     background: #2f3f5f;
     color: #fff;
     
-    padding: 3rem 5% 5rem 5%;
-    margin-top: 7rem;
+    /* disable the border */
+    border: 0;
+
 }
 
 .name {
     font-weight: bold;
     color: #069;
+}
+
+.intro {
+    margin-top: 7rem;
 }
 
 /* For large screen size */
@@ -173,6 +180,10 @@ footer p {
 
     .col-3 {
         width: 33.33%;
+    }
+
+    .col-2 {
+        width: 50%;
     }
 
     .slogon {
