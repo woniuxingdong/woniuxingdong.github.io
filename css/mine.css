@@ -145,11 +145,16 @@ footer p {
 
 .card {
     margin-top: 5rem;
+    padding: 0 1rem;
 }
 
 .content {
     display: flex;
     flex-wrap: wrap;
+}
+
+.card-head {
+    line-height: 3rem;
 }
 
 .card-head > p:first-of-type{
@@ -175,6 +180,11 @@ footer p {
 .intro {
     margin-top: 7rem;
 }
+
+.qrcode {
+    width: 40%;
+}
+
 
 /* For large screen size */
 @media screen and (min-width:600px) {
